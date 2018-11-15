@@ -13,11 +13,13 @@ import math
 class DecisionTree:
     
     """
-    works with integer attribute-label examples with no missing values
+    works with integer attributes and integer labels with no missing values.
+    Usage : Train with features, labels, feature description, label description
+    feature description = a list where kth element denotes the number of possible values of kth attribute
     
     """
     
-    depth = 100
+    depth = 1
     
     class Tree:
     
